@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f6f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.formulario {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input {
+  flex: 1;
+  min-width: 200px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+button {
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px 16px;
+  font-weight: bold;
+}
+
+.salvar {
+  background: #28a745;
+  color: white;
+}
+
+.editar {
+  background: #ffc107;
+  color: black;
+  margin-right: 5px;
+}
+
+.excluir {
+  background: #dc3545;
+  color: white;
+}
+
+.produto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
