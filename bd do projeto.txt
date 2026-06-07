@@ -1,0 +1,9 @@
+CREATE DATABASE exerc02_db;
+
+USE exerc02_db;
+
+CREATE TABLE exerc02_produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    preco DECIMAL(10,2)
+);
